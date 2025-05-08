@@ -1,5 +1,5 @@
 # !/bin/bash
-testlist=run_list
+testlist=run_list.txt
 
 CUDA_VISIBLE_DEVICES=0 python3 inference_par.py \
     --test_list ${testlist} \
