@@ -1,7 +1,7 @@
 # !/bin/bash
-testlist=demo_json/demo_list
+testlist=run_list
 
-CUDA_VISIBLE_DEVICES=1 python3.8 inference_par.py \
+CUDA_VISIBLE_DEVICES=0 python3 inference_par.py \
     --test_list ${testlist} \
     --write_pdbfile \
     --batch_size 1 \

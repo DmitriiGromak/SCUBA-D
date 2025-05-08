@@ -1,0 +1,15 @@
+{
+    "global_config":{
+        "input_file": "zalpha.pdb",
+        "output_prefix": "results/binder",
+        "mode": "gen_from_noise"
+    },
+    "gen_from_noise": {
+        "target_sstype": null,
+        "ss_noise_scale": [5.0, 8.0],
+        "chain_config":{
+	    "A": 50,
+            "B": "139_201"
+        }
+    }
+}
